@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carrousel{
+    width: 90%;
+    margin: auto;
+    
+}
+
+.conteCarrousel{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    
+}
+
+.itemCarrousel{
+    position: relative;
+    width: 100%;
+    height: 100%;   
+}
+
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;   
+}
+
+.itemCarrouselTarjeta img{
+    width: 100%;
+    height: 100%;   
+}
+
+.itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+#itemCarrousel-1{
+    background-color: rgb(226, 50, 50);
+}
+
+#itemCarrousel-2{
+    background-color: rgb(50, 200, 226);
+}
+
+#itemCarrousel-3{
+    background-color: rgb(200, 226, 50);
+}
+
+.conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+
+.itemCarrouselArrows > a > i{
+    color: white;
+}
+
+#menu{
+border: 1px solid black;
+height: 50px;
+width: 100%;
+padding: 5px;
+text-align: center;
+align-items: center;
+}
+
+#menu button{
+    padding: 5px;
+    width: 10%;
+}
+
+#carro{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#streaming{
+    border: 1px solid black;
+    height: 400px;
+    width: 70%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#streaming td img{
+    height: 100%;
+    width: 100%;
+}
+
+
+#crud{
+    margin: auto;
+    border: 1px solid black;
+    height: 40px;
+    width: 85%;
+    text-align: center;
+}
+
+#crud button{
+    padding: 5px;
+    margin-top: 4px;
+}
+
+table{
+    margin: auto;
+}
